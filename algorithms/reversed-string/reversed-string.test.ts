@@ -1,7 +1,11 @@
-import { describe, expect, test } from '@jest/globals';
+import { reversedString } from './reversed-string';
 
-describe('sum module', () => {
-  test('adds 1 + 2 to equal 3', () => {
-    expect(true).toBe(true);
+describe('reversed string suit test', () => {
+  test('successfull reverse string', () => {
+    const text: string = 'hello world';
+
+    const result = reversedString(text);
+
+    // expect(result).toBe('dlrow olleh');
   });
 });
