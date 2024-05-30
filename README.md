@@ -1,0 +1,1 @@
+![Notations](/assets/images/algorithms/notations.png)
